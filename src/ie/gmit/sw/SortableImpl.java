@@ -3,13 +3,14 @@ package ie.gmit.sw;
 
 public class SortableImpl implements Sortable {
 	
-	/*public void initialise() {
-		int[] arr = new int[100];
+	public int[] initialise() {
+		int[] arr = new int[20];
 		for (int i = 0; i < arr.length; i++) {
-			arr[i] = (int)(Math.random()*100 + 1);
-			System.out.println(arr[i]);
+			arr[i] = (int)(Math.random()*20 + 1);
+			// System.out.println(arr[i]);
 		}
-	}*/
+		return arr;
+	}
 	
 	public void sort(int[] arr) {
 		int temp = 0;
